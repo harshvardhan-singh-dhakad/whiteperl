@@ -25,3 +25,7 @@ pnpm workspace monorepo using TypeScript. Each package manages its own dependenc
 - `pnpm --filter @workspace/api-server run dev` — run API server locally
 
 See the `pnpm-workspace` skill for workspace structure, TypeScript setup, and package details.
+
+## Artifacts
+
+- **glam-studio** (`artifacts/glam-studio`, `/`) — Soft-luxury beauty parlour landing page for "Glam Studio". React + Vite + Tailwind, with a Three.js 3D background of floating cosmetic objects (lipstick, nail polish, compact, brush, foundation bottle, eyeshadow palette, mascara, hair cream jar, hair dryer, pearls, gold dust). Mobile-first, hamburger nav, framer-motion reveals, WhatsApp booking CTA. The 3D background gracefully no-ops when WebGL isn't available.

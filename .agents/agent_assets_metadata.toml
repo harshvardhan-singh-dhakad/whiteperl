@@ -1,0 +1,50 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "kuyq0qrBOM5IER8aiMJ3k"
+uri = "file://artifacts/glam-studio/src/assets/images/team-priya.png"
+type = "image"
+title = "Priya Sharma hair stylist"
+
+[[generated]]
+id = "TYpZiKDQhqbUoRk2gOO7Q"
+uri = "file://artifacts/glam-studio/src/assets/images/team-riya.png"
+type = "image"
+title = "Riya Malhotra makeup artist"
+
+[[generated]]
+id = "PA9Lh_QAS1xQQS2Bmu1A8"
+uri = "file://artifacts/glam-studio/src/assets/images/team-anjali.png"
+type = "image"
+title = "Anjali Verma nail artist"
+
+[[generated]]
+id = "kOYXG3ECi0FQW3GmdZkdC"
+uri = "file://artifacts/glam-studio/src/assets/images/team-kavya.png"
+type = "image"
+title = "Kavya Nair spa expert"
+
+[[generated]]
+id = "7rSjmC8Qa614mmTnEXsgg"
+uri = "file://artifacts/glam-studio/src/assets/images/gallery-bridal.png"
+type = "image"
+title = "Bridal makeup close-up"
+
+[[generated]]
+id = "FMjXi1dckrp6uCYQd6BHM"
+uri = "file://artifacts/glam-studio/src/assets/images/gallery-hair.png"
+type = "image"
+title = "Luxurious hair styling"
+
+[[generated]]
+id = "KQuEXXeFNR0jGf2AmCbNf"
+uri = "file://artifacts/glam-studio/src/assets/images/gallery-nails.png"
+type = "image"
+title = "Creative nail art macro"
+
+[[generated]]
+id = "zgZJ_AHmjpk7RKmTspVVZ"
+uri = "file://artifacts/glam-studio/src/assets/images/gallery-spa.png"
+type = "image"
+title = "Relaxing spa massage scene"

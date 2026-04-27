@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..700;1,400..700&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Poppins:ital,wght@0,300..600;1,300..600&display=swap');
+@import "tailwindcss";
+@import "tw-animate-css";
+@plugin "@tailwindcss/typography";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: hsl(var(--background));
+  --color-foreground: hsl(var(--foreground));
+  --color-border: hsl(var(--border));
+  --color-input: hsl(var(--input));
+  --color-ring: hsl(var(--ring));
+
+  --color-primary: hsl(var(--primary));
+  --color-primary-foreground: hsl(var(--primary-foreground));
+  
+  --color-muted: hsl(var(--muted));
+  --color-muted-foreground: hsl(var(--muted-foreground));
+
+  --color-accent: hsl(var(--accent));
+  --color-accent-foreground: hsl(var(--accent-foreground));
+
+  --color-card: hsl(var(--card));
+  --color-card-foreground: hsl(var(--card-foreground));
+  --color-card-border: hsl(var(--card-border));
+
+  --font-sans: 'Poppins', sans-serif;
+  --font-serif: 'Playfair Display', serif;
+  --font-display: 'Cormorant Garamond', serif;
+
+  --color-bg-base: #FCF9F9;         
+  --color-text-dark: #2A1A21;       
+  --color-text-mid: #63535B;        
+  --color-blush-light: #F7E4E4;     
+  --color-dusty-rose: #C48B8B;      
+  --color-rose-deep: #9E5B5B;       
+  --color-champagne: #F2E3C6;       
+  --color-gold: #B88645;            
+}
+
+:root {
+  --background: 0 29% 98%; /* #FCF9F9 */
+  --foreground: 338 24% 13%; /* #2A1A21 */
+  --border: 0 44% 93%; /* #F7E4E4 */
+  
+  --card: 0 0% 100%;
+  --card-foreground: 338 24% 13%;
+  --card-border: 0 44% 93%;
+
+  --popover: 0 0% 100%;
+  --popover-foreground: 338 24% 13%;
+  --popover-border: 0 44% 93%;
+
+  --primary: 0 27% 49%; /* rose-deep */
+  --primary-foreground: 0 0% 100%;
+
+  --secondary: 40 59% 86%; /* champagne */
+  --secondary-foreground: 338 24% 13%;
+
+  --muted: 0 44% 93%;
+  --muted-foreground: 330 9% 36%; /* text-mid */
+
+  --accent: 34 45% 50%; /* gold */
+  --accent-foreground: 0 0% 100%;
+
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 0 0% 100%;
+
+  --input: 0 44% 93%;
+  --ring: 0 27% 49%;
+
+  --radius: 0.5rem;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground overflow-x-hidden;
+  }
+}
