@@ -1,10 +1,14 @@
 import { motion } from "framer-motion";
+import galleryBridal from "@/assets/images/gallery-bridal.png";
+import galleryHair from "@/assets/images/gallery-hair.png";
+import galleryNails from "@/assets/images/gallery-nails.png";
+import gallerySpa from "@/assets/images/gallery-spa.png";
 
 const gallery = [
-  { img: "/assets/images/gallery-bridal.png", title: "Bridal & HD Makeup" },
-  { img: "/assets/images/gallery-hair.png", title: "Hair Studio · Cut · Colour" },
-  { img: "/assets/images/gallery-nails.png", title: "Nail Art & Extensions" },
-  { img: "/assets/images/gallery-spa.png", title: "Skin, Spa & Body Care" }
+  { img: galleryBridal, title: "Bridal & HD Makeup" },
+  { img: galleryHair, title: "Hair Studio · Cut · Colour" },
+  { img: galleryNails, title: "Nail Art & Extensions" },
+  { img: gallerySpa, title: "Skin, Spa & Body Care" }
 ];
 
 export function Gallery() {
