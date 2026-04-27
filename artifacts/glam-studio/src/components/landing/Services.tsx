@@ -1,13 +1,13 @@
-import { Scissors, Sparkles, Wand2, Hand, Flower2, Leaf } from "lucide-react";
+import { Scissors, Sparkles, Wand2, Hand, Flower2, User } from "lucide-react";
 import { motion } from "framer-motion";
 
 const services = [
-  { icon: Scissors, name: "Hair Care & Styling", desc: "Cut, color, smoothening, keratin treatment aur baalo ki poori dekhbhal", price: "Starting ₹299" },
-  { icon: Wand2, name: "Bridal Makeup", desc: "Shaadi ke khaas din ke liye luxury makeup — airbrushed perfection", price: "Starting ₹2,999" },
-  { icon: Sparkles, name: "Skin Glow Facial", desc: "Deep cleansing, brightening aur anti-aging facials for radiant skin", price: "Starting ₹499" },
-  { icon: Hand, name: "Nail Art & Extensions", desc: "Gel nails, 3D nail art, nail extensions — hath aur paon dono ke liye", price: "Starting ₹199" },
-  { icon: Flower2, name: "Luxury Spa & Massage", desc: "Relaxation aur rejuvenation ke liye premium spa therapies", price: "Starting ₹799" },
-  { icon: Leaf, name: "Threading & Waxing", desc: "Painless hair removal aur precise eyebrow shaping", price: "Starting ₹49" }
+  { icon: Scissors, name: "Hair Studio", desc: "Premium haircut, global colour, keratin smoothening, hair spa aur scalp treatment — ladies aur gents dono ke liye", price: "Starting ₹299" },
+  { icon: User, name: "Men's Grooming", desc: "Signature haircut, beard sculpting, clean-up facial aur head massage — modern man ke liye complete package", price: "Starting ₹399" },
+  { icon: Wand2, name: "Bridal & Party Makeup", desc: "HD aur airbrush makeup, draping aur hair styling — shaadi, sangeet aur events ke liye", price: "Starting ₹2,999" },
+  { icon: Sparkles, name: "Skin Glow Facial", desc: "Hydra facial, deep cleansing, brightening aur anti-ageing therapies for radiant skin", price: "Starting ₹499" },
+  { icon: Hand, name: "Nail Art & Extensions", desc: "Gel polish, 3D nail art, acrylic extensions, manicure aur pedicure", price: "Starting ₹199" },
+  { icon: Flower2, name: "Spa & Body Care", desc: "Aromatherapy, deep tissue massage, body polishing aur threading-waxing", price: "Starting ₹599" }
 ];
 
 export function Services() {

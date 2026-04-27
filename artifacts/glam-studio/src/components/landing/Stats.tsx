@@ -26,10 +26,10 @@ function Counter({ from, to, duration = 2 }: { from: number; to: number; duratio
 
 export function Stats() {
   const stats = [
-    { value: 500, suffix: "+", label: "Happy Clients" },
+    { value: 1000, suffix: "+", label: "Happy Clients" },
     { value: 12, suffix: "+", label: "Years Experience" },
-    { value: 50, suffix: "+", label: "Premium Services" },
-    { value: 100, suffix: "%", label: "Satisfaction" }
+    { value: 50, suffix: "+", label: "Cosmetic Services" },
+    { value: 100, suffix: "%", label: "Hygiene Promise" }
   ];
 
   return (

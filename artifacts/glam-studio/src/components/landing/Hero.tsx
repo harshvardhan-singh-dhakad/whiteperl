@@ -10,7 +10,7 @@ export function Hero() {
         className="max-w-4xl mx-auto space-y-6"
       >
         <p className="text-gold font-semibold tracking-[0.2em] uppercase text-sm">
-          Soft Luxury Beauty Experience
+          Unisex Luxury Salon · Beauty · Grooming · Spa
         </p>
         
         <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl font-bold leading-tight bg-gradient-to-br from-text-dark via-rose-deep to-gold bg-clip-text text-transparent drop-shadow-sm">
@@ -19,7 +19,7 @@ export function Hero() {
         </h1>
         
         <p className="font-display text-xl md:text-3xl text-text-mid italic max-w-2xl mx-auto">
-          Where Every Woman Becomes a Masterpiece
+          Hair · Skin · Makeup · Nails · Grooming — sab kuch ek chhat ke neeche
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-8">

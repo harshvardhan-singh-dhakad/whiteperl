@@ -17,15 +17,15 @@ export function BookingCta() {
           <div className="relative z-10 space-y-6">
             <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-rose-deep/10 text-rose-deep text-sm font-bold tracking-wide uppercase rounded-full">
               <Sparkles className="w-4 h-4" />
-              Hurry! Only 1-2 slots left for today
+              Aaj ke liye sirf 2 slots baaki
             </div>
 
             <h2 className="font-serif text-4xl md:text-5xl font-bold text-text-dark leading-tight">
-              Ready to Glow?
+              Apna Glow Book Kariye
             </h2>
 
             <p className="text-text-mid text-lg max-w-lg mx-auto pb-4">
-              Book your appointment via WhatsApp and experience the ultimate luxury beauty treatment.
+              WhatsApp pe ek tap mein appointment confirm — hair, makeup, skin ya men's grooming, jo bhi service chahiye.
             </p>
 
             <button

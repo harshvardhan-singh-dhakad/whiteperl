@@ -1,10 +1,10 @@
 import { motion } from "framer-motion";
 
 const team = [
-  { name: "Priya Sharma", role: "Senior Hair Stylist", exp: "8 yrs", image: "/assets/images/team-priya.png" },
-  { name: "Riya Malhotra", role: "Bridal Makeup Artist", exp: "6 yrs", image: "/assets/images/team-riya.png" },
-  { name: "Anjali Verma", role: "Nail Art Specialist", exp: "5 yrs", image: "/assets/images/team-anjali.png" },
-  { name: "Kavya Nair", role: "Skin & Spa Expert", exp: "7 yrs", image: "/assets/images/team-kavya.png" }
+  { name: "Priya Sharma", role: "Creative Director · Hair", exp: "8 yrs", image: "/assets/images/team-priya.png" },
+  { name: "Arjun Kapoor", role: "Men's Grooming Lead", exp: "9 yrs", image: "/assets/images/team-priya.png" },
+  { name: "Riya Malhotra", role: "Senior Makeup Artist", exp: "6 yrs", image: "/assets/images/team-riya.png" },
+  { name: "Kavya Nair", role: "Skin & Spa Therapist", exp: "7 yrs", image: "/assets/images/team-kavya.png" }
 ];
 
 export function Team() {

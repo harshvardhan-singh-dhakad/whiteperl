@@ -2,10 +2,10 @@ import { Star, ShieldCheck, Gem, Users } from "lucide-react";
 import { motion } from "framer-motion";
 
 const features = [
-  { icon: Users, title: "Expert Stylists", desc: "Highly trained professionals with years of experience in luxury beauty." },
-  { icon: Gem, title: "Premium Products", desc: "Top-tier international brands for flawless and safe results." },
-  { icon: Star, title: "5-Star Reviews", desc: "Loved by hundreds of happy brides and regular clients." },
-  { icon: ShieldCheck, title: "Hygienic & Safe", desc: "Strict sanitization protocols for a worry-free experience." }
+  { icon: Users, title: "Certified Experts", desc: "L'Oréal aur Lakmé certified stylists, makeup artists aur therapists with 5+ years of experience." },
+  { icon: Gem, title: "Premium Products", desc: "Sirf international cosmetic brands — Schwarzkopf, MAC, O3+, Olaplex aur Bioderma." },
+  { icon: Star, title: "1000+ Happy Clients", desc: "Brides, grooms, professionals aur students — sab hamare regulars hain." },
+  { icon: ShieldCheck, title: "Hygiene First", desc: "Single-use tools, sanitised stations aur safe disposal — har visit safe aur clean." }
 ];
 
 export function WhyUs() {

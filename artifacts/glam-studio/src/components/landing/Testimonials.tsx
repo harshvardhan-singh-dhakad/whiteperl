@@ -2,17 +2,17 @@ import { Star } from "lucide-react";
 import { motion } from "framer-motion";
 
 const testimonials = [
-  { name: "Neha Gupta", location: "Bhopal", text: "Glam Studio made my wedding day perfect. The bridal makeup was flawless, and the team was so warm and professional. Highly recommend!" },
-  { name: "Shreya Patel", location: "Indore", text: "Best hair spa and styling in town! The ambiance is so luxurious and relaxing. I always leave feeling like a queen." },
-  { name: "Prachi Joshi", location: "Raisen", text: "Got my nail extensions done here, and I am obsessed. The attention to detail and premium products they use are unmatched." }
+  { name: "Neha Gupta", location: "Bhopal", text: "Mere wedding ka HD makeup itna flawless tha — 12 ghante baad bhi vaisa hi fresh laga. Hair styling aur draping bhi top class. Highly recommend!" },
+  { name: "Rohan Mehta", location: "Indore", text: "Best men's grooming experience in town. Beard sculpting, fade haircut aur clean-up facial — sab on point. Ambience bhi premium hai, rushed feel nahi hota." },
+  { name: "Prachi Joshi", location: "Raisen", text: "Hydra facial aur gel nail extensions dono yahan se karwati hoon. International products use karte hain aur hygiene ka full dhyaan rakhte hain." }
 ];
 
 export function Testimonials() {
   return (
     <section id="reviews" className="py-24 px-6 md:px-12 max-w-7xl mx-auto">
       <div className="text-center mb-16 space-y-4">
-        <span className="text-gold uppercase tracking-[0.2em] text-sm font-bold">Client Love</span>
-        <h2 className="font-serif text-4xl md:text-5xl font-bold text-text-dark">Words from our Brides</h2>
+        <span className="text-gold uppercase tracking-[0.2em] text-sm font-bold">Client Stories</span>
+        <h2 className="font-serif text-4xl md:text-5xl font-bold text-text-dark">Hamare Clients Ki Zubaani</h2>
         <div className="w-16 h-1 bg-gradient-to-r from-dusty-rose to-gold mx-auto rounded-full" />
       </div>
 

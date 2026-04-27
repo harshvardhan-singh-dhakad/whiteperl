@@ -1,10 +1,10 @@
 import { motion } from "framer-motion";
 
 const gallery = [
-  { img: "/assets/images/gallery-bridal.png", title: "Bridal Elegance" },
-  { img: "/assets/images/gallery-hair.png", title: "Luxury Hair Care" },
-  { img: "/assets/images/gallery-nails.png", title: "Creative Nail Art" },
-  { img: "/assets/images/gallery-spa.png", title: "Relaxing Spa" }
+  { img: "/assets/images/gallery-bridal.png", title: "Bridal & HD Makeup" },
+  { img: "/assets/images/gallery-hair.png", title: "Hair Studio · Cut · Colour" },
+  { img: "/assets/images/gallery-nails.png", title: "Nail Art & Extensions" },
+  { img: "/assets/images/gallery-spa.png", title: "Skin, Spa & Body Care" }
 ];
 
 export function Gallery() {

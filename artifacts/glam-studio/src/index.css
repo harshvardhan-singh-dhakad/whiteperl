@@ -29,46 +29,50 @@
   --font-serif: 'Playfair Display', serif;
   --font-display: 'Cormorant Garamond', serif;
 
-  --color-bg-base: #FCF9F9;         
-  --color-text-dark: #2A1A21;       
-  --color-text-mid: #63535B;        
-  --color-blush-light: #F7E4E4;     
-  --color-dusty-rose: #C48B8B;      
-  --color-rose-deep: #9E5B5B;       
-  --color-champagne: #F2E3C6;       
-  --color-gold: #B88645;            
+  /* Unisex luxury salon palette: warm ivory + deep emerald + warm gold + copper accent.
+     Psychology: emerald = calm + trust + premium wellness; gold = luxury;
+     copper = warmth without overt femininity. Variable names kept stable for
+     component compatibility — semantics updated, not the API. */
+  --color-bg-base: #F5F1E8;         /* warm ivory */
+  --color-text-dark: #161C19;       /* deep charcoal-emerald */
+  --color-text-mid: #5C625E;        /* warm slate */
+  --color-blush-light: #EAE1CE;     /* warm beige */
+  --color-dusty-rose: #B07A5C;      /* muted copper rose */
+  --color-rose-deep: #1F4D3F;       /* deep emerald (primary) */
+  --color-champagne: #EFE3CB;       /* warm champagne */
+  --color-gold: #B8893B;            /* warm gold accent */
 }
 
 :root {
-  --background: 0 29% 98%; /* #FCF9F9 */
-  --foreground: 338 24% 13%; /* #2A1A21 */
-  --border: 0 44% 93%; /* #F7E4E4 */
+  --background: 41 38% 93%; /* #F5F1E8 ivory */
+  --foreground: 140 11% 9%; /* #161C19 charcoal-emerald */
+  --border: 41 30% 87%; /* warm beige */
   
   --card: 0 0% 100%;
-  --card-foreground: 338 24% 13%;
-  --card-border: 0 44% 93%;
+  --card-foreground: 140 11% 9%;
+  --card-border: 41 30% 87%;
 
   --popover: 0 0% 100%;
-  --popover-foreground: 338 24% 13%;
-  --popover-border: 0 44% 93%;
+  --popover-foreground: 140 11% 9%;
+  --popover-border: 41 30% 87%;
 
-  --primary: 0 27% 49%; /* rose-deep */
+  --primary: 158 42% 21%; /* deep emerald */
   --primary-foreground: 0 0% 100%;
 
-  --secondary: 40 59% 86%; /* champagne */
-  --secondary-foreground: 338 24% 13%;
+  --secondary: 39 56% 86%; /* champagne */
+  --secondary-foreground: 140 11% 9%;
 
-  --muted: 0 44% 93%;
-  --muted-foreground: 330 9% 36%; /* text-mid */
+  --muted: 41 30% 87%;
+  --muted-foreground: 130 4% 37%;
 
-  --accent: 34 45% 50%; /* gold */
+  --accent: 38 51% 47%; /* warm gold */
   --accent-foreground: 0 0% 100%;
 
-  --destructive: 0 84% 60%;
+  --destructive: 0 70% 45%;
   --destructive-foreground: 0 0% 100%;
 
-  --input: 0 44% 93%;
-  --ring: 0 27% 49%;
+  --input: 41 30% 87%;
+  --ring: 158 42% 21%;
 
   --radius: 0.5rem;
 }
