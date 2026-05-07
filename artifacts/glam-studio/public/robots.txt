@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Exclude sensitive areas
+Disallow: /admin
+Disallow: /cart
+Disallow: /checkout
+
+# Sitemap location
+Sitemap: https://glamstudio.in/sitemap.xml
